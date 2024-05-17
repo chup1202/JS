@@ -125,3 +125,68 @@ let users = [{
 
 
 ]
+console.log(users[0].user1.password);
+console.log(users[0].user2.password);
+console.log(users[0].user3.password);
+console.log(users[0].user4.password);
+console.log(users[0].user5.password);
+console.log(users[0].user6.password);
+console.log(users[0].user7.password);
+console.log(users[0].user8.password);
+console.log(users[0].user9.password);
+console.log(users[0].user10.password);
+
+
+
+// - описати масив, в якому буде зберігатись інформація про температуру вранці, вдень і ввечері за термін в 7 днів. Як зробити цей масив - вам потрібно подумати. Нормальних варіантів опису - 2. Варіант, коли в вас буде одновимірний масив з 21 значенням вичключаємо одразу
+
+let weather= [{
+    Monday: {
+        morning: 10,
+        midday: 15,
+        evening: 9
+    },
+    Tuesday: {
+        morning: 10,
+        midday: 15,
+        evening: 9
+    },
+    Wednesday: {
+        morning: 10,
+        midday: 15,
+        evening: 9
+    },
+    Thursday: {
+        morning: 10,
+        midday: 15,
+        evening: 9
+    },
+    Friday: {
+        morning: 10,
+        midday: 15,
+        evening: 9
+    },
+    Saturday: {
+        morning: 10,
+        midday: 15,
+        evening: 9
+    },
+    Sunday: {
+        morning: 10,
+        midday: 15,
+        evening: 9
+    }
+}
+
+
+]
+
+// Логічні розгалуження:
+//     - Є змінна х, якій ви надаєте довільне числове значення.
+//     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
+
+let x = 4
+if(x !== 0){console.log('Вірно')}
+else {console.log('Невірно')}
+
+let a 
